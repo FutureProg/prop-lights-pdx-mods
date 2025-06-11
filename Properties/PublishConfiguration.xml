@@ -7,9 +7,15 @@
 	<ShortDescription Value="Prop-only lights reflect the time of day!" />
 	<!--Long description of the mod. Single line or multi line. Supports minimal markdown subset-->
 	<!--LongDescription Value="Lights not on buildings or networks reflect the time of day!" /-->
-	<LongDescription>    
-		Lights placed via the dev ui reflect the time of day.
-	</LongDescription>
+	<LongDescription>
+In vanilla, When lights are plopped directly by the player,
+they are on during both the day and the night. This mod fixes that by introducing time-synced lighting for light props plopped by players.
+Illuminate your cityscape with lights that dynamically adjust to the time of day, creating a realistic and immersive urban environment.
+Watch as the streets come alive with the glow of dawn, the vibrant hues of sunset, and the twinkling lights of nightfall.
+Whether it's the bustling downtown or serene suburbs, every corner of your city will radiate with life, adding depth and realism to your urban masterpiece.
+
+^ literally just so Skyve stops complaining about the description length 😛 ^
+  </LongDescription>
 	<!--Thumbnail-->
 	<Thumbnail Value="Properties/Thumbnail.png" />
 	<!--Screenshot, can be set multiple times-->
@@ -19,9 +25,9 @@
 	<!--Link to the forum post where the mod can be discussed-->
 	<ForumLink Value="" />
 	<!--Version of the mod-->
-	<ModVersion Value="1.0.1" />
+	<ModVersion Value="1.0.2" />
 	<!--Recommended version of the base game to use the mod-->
-	<GameVersion Value="1.0.*" />
+	<GameVersion Value="1.3.*" />
 	<!--Dependency for the mod, can be set multiple times-->
 	<Dependency Id="" />
 	<!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
@@ -29,5 +35,7 @@
 	<!--ChangeLog>
 	</ChangeLog-->
 	<!--External link. supported types are discord, github, youtube, twitch, x, paypal, patreon-->
-	<ExternalLink Type="" Url="" />
+	<ExternalLink Type="github" Url="https://github.com/FutureProg/prop-lights-pdx-mods" />
+  <ExternalLink Type="discord" Url="https://discord.gg/HTav7ARPs2" />
+  <ExternalLink Type="ko-fi" Url="https://ko-fi.com/trejak" />
 </Publish>
